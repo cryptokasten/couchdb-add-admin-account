@@ -17,6 +17,8 @@ Default config file location is =/opt/couchdb/etc/local.ini=.
 admin = rawpassword
 #+END_SRC
 
+After reboot the password will be replaced with its hash.
+
 ** Resources
 
 - https://docs.couchdb.org/en/stable/config/auth.html#config-admins
